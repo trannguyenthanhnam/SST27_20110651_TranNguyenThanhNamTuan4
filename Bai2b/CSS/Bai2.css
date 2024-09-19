@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#a1{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    background-color: rgb(42, 77, 117);
+}
+section{
+    width: 70%;
+    height: 650px;
+    /* border-bottom: 1px solid black; */
+    float: left;
+    /* border-right: 1px solid black; */
+}
+aside{
+    width: 30%;
+    height: 650px;
+    /* border-bottom: 1px solid black; */
+    float: left;
+}
+img{
+    width: 6%;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+#a2{
+    padding-left: 300px;
+}
+h1{
+    padding-left: 65px;
+    margin-top: -52px;
+    color: white;
+}
+#a2{
+    padding-left: 65px;
+    font-size: 18px;
+    color: white;
+}
+#a3{
+    float: right;
+    padding-right: 20px;
+    margin-top: -35px; 
+    padding-left: 10px;
+}
+#a3>a{
+    padding: 15px;
+    background-color: rgb(101, 125, 198);
+    color: white;
+    
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5px;
+    
+}
+#a4{
+    float: right;
+    margin-top: -70px;
+    padding-right: 17px;
+}
+
+    input[type="search"]::placeholder {
+    color: white; }
+#a5{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: right;
+    /* margin: 60px; */
+    margin-top: 30px;
+    margin-right: 15px;
+}
+#a6{
+    width: 55%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    color: rgba(4, 24, 82, 0.449) ;
+}
+hr{
+   border: 1px dashed gray;
+   width: 96%;
+}
+footer{
+    clear: both;
+    background-color: rgb(42, 77, 117);
+    height: 47px;
+    border-bottom: 3px solid rgba(43, 3, 3, 0.603);
+}
+td{
+    padding-top: 10px;
+    color: rgba(4, 24, 82, 0.579);
+    font-size: 18px;
+}
+input{
+    background-color: whitesmoke;
+    font-size: 14px;
+}
+textarea{
+    background-color: whitesmoke;
+}
+#p1{
+    color: red;
+    font-size: 18px;
+    text-shadow: 2px 5px 5px green;
+}
+.p2{
+    padding-left: 12px;
+    color: rgba(81, 105, 103, 0.747) ;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+h3{
+    
+    padding-bottom: 10px;
+    padding-left: 12px;
+    color: rgba(4, 24, 82, 0.449) ;
+}
+#hr1{
+   border: 1px dashed gray;
+   width: 90%;
+}
+#anh2{
+   width: 96%;
+   margin-top: 5px;
+
+    padding: 2px;
+
+}
+#hr2{
+    border: 1px dashed gray;
+    width: 90%;
+}
+#hne{
+    font-size: 23px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    color: rgba(4, 24, 82, 0.449) ;
+}
+#ne{
+    float: right;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:blue ;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(101, 125, 198); 
+    min-width: 160px;
+    text-decoration: none;
+    padding: 15px; 
+
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: rgb(101, 125, 198);
+    min-width: 160px;
+    padding: 15px; 
+    z-index: 1;
+    text-decoration: none;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255); 
+    padding: 12px 16px; 
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box; 
+    font-size: 20px; 
+}
+
+.dropdown-content a:hover {
+    background-color: #e673c3; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Hiển thị menu con khi hover vào phần tử cha */
+}

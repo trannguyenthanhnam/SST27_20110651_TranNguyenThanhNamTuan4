@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#a1{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+}
+header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black ;
+    background-color: rgba(163, 74, 2, 0.921);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+#a3{
+    width: 70%;
+    height: 550px;
+    float: left;
+    border-right: 1px solid black;
+}
+aside{
+    width: 30%;
+    height: 550px;
+    float: left;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+}
+h1{
+    color: rgba(155, 155, 4, 0.808);
+    padding: 5px;
+    margin-left: 20px ;
+    text-shadow: -4px -4px 4px white;
+    font-size: 40px;
+   
+}
+#a2>a{
+    text-decoration: none;
+    margin: 20px;
+    color: brown;
+    font-size: 28px;
+}
+#a2{
+    padding-top: 10px;
+}
+#anh{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    /* background-image: url(../Bai3/anhne.jpg);
+    background-repeat: repeat-x; */
+   
+}
+
+#anh>img{
+    width: 100%;
+    height: 98px;
+}
+#a4>li{
+    list-style-type: none;
+    padding-top: 10px;
+    color: yell;
+    padding-bottom: 20px;
+    color: rgba(171, 116, 14, 0.805);
+    font-weight: bold;
+}
+#a3>h2{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: rgba(171, 116, 14, 0.805);
+    font-weight: bold;
+}
+#a6{
+    margin-top: 40px;
+    width: 80%;
+    height: 190px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px ;
+    background-color:  rgb(255,234,215);
+}
+h3{
+    padding: 12px;
+    padding-bottom: 20px;
+    color: rgba(71, 46, 3, 0.805);
+    font-size: 25px;
+    margin-left: 10px;
+}
+#a5>input{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#a6>ul>li{
+    
+    margin-left: 20px;
+    color: rgba(171, 116, 14, 0.805);
+    list-style-type: square;
+    font-size: 18px;
+}
+#a7{
+    margin-top: 40px;
+    width: 80%;
+    height: 260px;
+   
+}
+#a8{
+    width: 60%;
+    height: 100px;
+    border: 1px solid gray;
+   float: left;
+    
+    }
+#a7>p{
+    font-size: 17px;
+    color: black;
+}
+#a9>p{
+    font-size: 18px;
+    padding: 10px;
+}
